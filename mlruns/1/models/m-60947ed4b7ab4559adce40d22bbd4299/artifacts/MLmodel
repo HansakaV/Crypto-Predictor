@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/mahes/Documents/My Works/crypto-predictor/mlruns/1/models/m-60947ed4b7ab4559adce40d22bbd4299/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-60947ed4b7ab4559adce40d22bbd4299
+model_size_bytes: 606903
+model_uuid: m-60947ed4b7ab4559adce40d22bbd4299
+prompts: null
+run_id: 5beebdb4ff1e4fd4ae35d13d9ba93fe6
+utc_time_created: '2026-02-27 09:04:09.302996'

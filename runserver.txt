@@ -1,0 +1,8 @@
+*run mlflow-server
+"C:\Program Files\Python310\python.exe" -m mlflow ui --backend-store-uri youruri
+
+*run default-command
+streamlit run app.py
+
+*if streamlit not found
+python -m streamlit run app.py
